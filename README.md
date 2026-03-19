@@ -1,14 +1,27 @@
-# Network Packet Sniffer
+# 🛰️ Network Packet Sniffer
 
-Python-based tool to capture TCP and ICMP packets.
+A Python-based network packet sniffer that captures and analyzes TCP and ICMP packets using raw sockets.
 
-## Features
-- Packet sniffing using raw sockets
-- IP header parsing
-- ASCII data display
+---
 
-## Usage
-sudo python3 network_sniffer.py --ip <IP> --proto ICMP --data
+## 🚀 Features
+- Capture ICMP and TCP packets
+- Extract IP header information
+- Display source and destination IPs
+- ASCII payload inspection
+- Real-time packet monitoring
 
-## Author
-Khurram Shehzad
+---
+
+## 🛠️ Tech Stack
+- Python 3
+- Socket Programming
+- Struct & IP parsing
+- Argparse (CLI)
+
+---
+
+## 📦 Usage
+
+```bash
+sudo python3 network_sniffer.py --ip <YOUR_IP> --proto ICMP --data
